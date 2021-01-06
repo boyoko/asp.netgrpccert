@@ -25,7 +25,8 @@ namespace grpcserver
         }
         public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
-           var userName= CheckAuth(context)??string.Empty;
+            // var userName= CheckAuth(context)??string.Empty;
+            var userName = context.GetHttpContext().User.FindFirstValue(ClaimTypes.Name);
             return Task.FromResult(new HelloReply
             {
                 Message = $"Hello {request.Name } Request by:{userName}"
