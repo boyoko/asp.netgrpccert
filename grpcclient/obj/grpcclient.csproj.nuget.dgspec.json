@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\gavin\\Documents\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj": {}
+    "D:\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj": {}
   },
   "projects": {
-    "D:\\Users\\gavin\\Documents\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj": {
+    "D:\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\gavin\\Documents\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj",
+        "projectUniqueName": "D:\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj",
         "projectName": "grpcclient",
-        "projectPath": "D:\\Users\\gavin\\Documents\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj",
+        "projectPath": "D:\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj",
         "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\gavin\\Documents\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\obj\\",
+        "outputPath": "D:\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gavin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\gavin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +56,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.34.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

@@ -46,6 +46,7 @@ namespace grpcserver
                                 ServerCertificate = serverCertificate
                             };
                             listenOptions.UseHttps(httpsConnectionAdapterOptions);
+                            listenOptions.Protocols = HttpProtocols.Http1AndHttp2;
                      });
                         
                         

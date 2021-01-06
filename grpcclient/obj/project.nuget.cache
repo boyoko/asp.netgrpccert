@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RcZjO0EKzbmGvR+BzBBfwPOCZd03n19LPqXsFSUoEaqazVF3FBOhoLEb/6ftMudA8Gqew+uTbitxe3YOz56UIA==",
+  "dgSpecHash": "LkqIlt4ivPKMHmrOT9HX204XMWnyQqucpERNwFi4djWN6T/q916SDv8M8NzLqYyLx3HME5MK4wLyuu8y23coxg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\gavin\\Documents\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj",
+  "projectFilePath": "D:\\DotNetCoreSample\\asp.netgrpccert\\grpcclient\\grpcclient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavin\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\grpc.core.api\\2.34.0\\grpc.core.api.2.34.0.nupkg.sha512",
@@ -20,6 +20,7 @@
     "C:\\Users\\gavin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "C:\\Users\\gavin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"

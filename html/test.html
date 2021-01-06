@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>grpc gate way test</title>
+</head>
+
+    <body>
+        <div id="divtoke"></div> <input type="button" value="token" id="btnToken"><br>
+        <div id="divhelllo"></div><input type="button" value="Sayhello" id="btnHello"><br>
+        <script type="text/javascript" src="./jquery-2.2.3.min.js"></script>
+        <script>
+        var prfx="http://localhost:5000/";
+        $("#btnToken").click(function(){
+            var obj={ username:"gavin",password:"gavin"};
+            var objstr= JSON.stringify(obj);
+            $.ajax({
+                "type": "POST",
+                "contentType": "application/json",
+                "url": prfx + "v1/greeter/login",
+                "dataType": "json",
+                "data": objstr ,
+                "success": function(data, status, xhr) {
+                    $("#divtoke").html(data.token)
+                }
+            });
+        });
+        $("#btnHello").click(function(){
+            var userToken=$("#divtoke").html();
+            $.ajax({
+                "headers": { "Authorization":"Bearer "+userToken},
+                "type": "GET",
+                "contentType": "application/json",
+                "url": prfx + "v1/greeter/gavin",
+                "success": function(data, status, xhr) {
+                    $("#divhelllo").html(data.message)
+                }
+            });
+        });
+
+        </script>
+
+    </body>
+    </html>
